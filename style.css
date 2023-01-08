@@ -1,0 +1,155 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+.left {
+  width: 50%;
+  margin-left: 10%;
+}
+.right {
+  width: 50%;
+  margin-right: 10%;
+}
+/* stage-1 */
+.menu {
+  display: flex;
+  align-content: space-between;
+  background: #1f2937;
+  margin-bottom: auto;
+}
+.menu .left img {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* stage-2 */
+
+.header {
+  display: flex;
+  background: #1f2937;
+  justify-content: space-between;
+}
+.header .left {
+  text-align: left;
+  margin-bottom: 4%;
+}
+.header .right {
+  margin-top: 2%;
+  text-align: left;
+  margin-bottom: 4%;
+}
+p {
+  line-height: 1;
+}
+.one {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.two {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+button {
+  background: #3b82f6;
+  border-radius: 8px;
+  color: #f9faf8;
+  padding: 6px;
+}
+.header .right img {
+  height: 200px;
+  width: 300px;
+  object-position: left left;
+  margin-left: 30%;
+}
+/* info */
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info .top {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin: 1%;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+.info .down {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.info .down .box {
+  max-width: 300px;
+}
+.info .down .box .img {
+  width: 100px;
+  height: 100px;
+}
+/* line */
+.line {
+  text-align: center;
+  background: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+}
+.line .text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* footer */
+.footer {
+  margin: 10%;
+  background-color: #3b82f6;
+  border-radius: 4px;
+}
+.footer .signup {
+  display: flex;
+  justify-content: space-evenly;
+  color: #e5e7eb;
+}
+.signup button {
+  border: 2px solid rgb(255, 255, 255);
+}
+.b {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer-down {
+  background: #1f2937;
+  height: 50px;
+  color: #e5e7eb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer-down div {
+  text-align: center;
+  margin: auto;
+}
